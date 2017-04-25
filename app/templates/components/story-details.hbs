@@ -1,0 +1,11 @@
+{{#if displayEditStory}}
+  {{new-story saveStory="updateStory"}}
+{{else}}
+  <button class="btn btn-default pull-right" {{action 'editStory'}}>Edit</button>
+  <h2 class="text-center text-capitalize">{{model.title}}</h2>
+  <img class="center-block" src={{model.img}} alt={{model.title}} />
+  <br>
+  <p>By <strong class="text-uppercase">{{model.author}}</strong></p>
+  <br>
+  <p>{{model.text}}</p>
+{{/if}}
