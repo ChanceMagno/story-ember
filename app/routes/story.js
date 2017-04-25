@@ -6,7 +6,7 @@ export default Ember.Route.extend({
   },
   actions: {
     updateStory(params) {
-      this.set('displayEditStory', false);
+      this.set('update-story', false);
 
     }
   }

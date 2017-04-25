@@ -8,3 +8,16 @@ a:hover {
 }
 
 body { padding-top: 70px; }
+
+.media-left img {
+  height: 150px;
+  width: 350px;
+}
+
+/*.media-left {
+  height: 150px;
+}*/
+
+.media p:hover {
+  font-size: 125%;
+}

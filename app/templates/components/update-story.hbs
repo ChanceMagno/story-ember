@@ -1,0 +1,19 @@
+<form>
+  <div class="form-group">
+    <label for="title">Title update</label>
+    {{input value=title id="title" placeholder=model.title class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="author">Author</label>
+    {{input value=author id="author" placeholder=model.author class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="img">Image</label>
+    {{input value=img id="img" placeholder=model.img class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="text">Content</label>
+    {{textarea value=text id="text" rows="6" placeholder=model.text class="form-control"}}
+  </div>
+  <button class="btn btn-primary" {{action 'updateStory'}}>Update Story</button>
+</form>
