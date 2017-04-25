@@ -1,0 +1,26 @@
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="">
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+      <li>{{#link-to 'new-story'}}New Story{{/link-to}}</li>
+    </ul>
+    {{make-admin makeAdmin="makeAdmin"}}
+  </div>
+</nav>
+
+<div class= "container">
+  <header class= "jumbotron">
+    <h1>Bustle Clone</h1>
+  </header>
+    {{outlet}}
+  <hr>
+  <footer>
+
+  </footer>
+</div>
